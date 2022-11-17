@@ -1,0 +1,9 @@
+Neos:
+  Flow:
+    core:
+      applicationPackageKey: Vendor.App
+      applicationName: App
+
+    mvc:
+      routes:
+        'Vendor.App': {}

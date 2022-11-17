@@ -1,0 +1,13 @@
+#!/bin/bash
+
+## Description: Cleanup generated files like node_modules
+## Usage: cleanup
+## Example: "ddev cleanup"
+
+echo "🗑 Removing Composer & PHP related directories"
+rm -rf ./Data/Temporary/*
+rm -rf ./Packages/*
+rm -rf ./bin/*
+
+echo "🗑 Removing Node related directories"
+rm -rf ./node_modules

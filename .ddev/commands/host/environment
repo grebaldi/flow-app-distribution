@@ -1,0 +1,10 @@
+#!/bin/bash
+
+## Description: Displays version info for several programs in the development environment
+## Usage: environment
+## Example: "ddev environment"
+
+ddev version
+ddev exec 'php --version | head -n 1'
+ddev exec 'echo Node $(node --version)'
+ddev exec 'echo Pnpm $(pnpm --version)'

@@ -1,0 +1,11 @@
+
+
+#!/bin/bash
+
+## Description: Refreshes the project
+## Usage: refresh
+## Example: "ddev refresh"
+
+ddev start
+ddev install
+ddev describe

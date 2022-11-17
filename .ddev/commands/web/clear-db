@@ -1,0 +1,11 @@
+#!/bin/bash
+
+## Description: Drop all database tables
+## Usage: clear-db
+## Example: "ddev clear-db"
+
+echo 'SET FOREIGN_KEY_CHECKS = 0;' > /tmp/drop-tables.sql
+mysqldump --add-drop-table --no-data -u db -pdb db | grep 'DROP TABLE' >> /tmp/drop-tables.sql
+echo 'SET FOREIGN_KEY_CHECKS = 1;' >> /tmp/drop-tables.sql
+
+mysql -u db -pdb db < /tmp/drop-tables.sql

@@ -1,0 +1,9 @@
+#!/bin/bash
+
+## Description: Initially sets up the project
+## Usage: setup
+## Example: "ddev setup"
+
+ddev start
+ddev install
+ddev describe

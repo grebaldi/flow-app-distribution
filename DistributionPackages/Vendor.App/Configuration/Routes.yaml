@@ -1,0 +1,10 @@
+-
+  name: 'Index'
+  uriPattern: ''
+  defaults:
+    '@package': 'Vendor.App'
+    '@subpackage': 'Application'
+    '@controller': 'Index'
+    '@action': 'index'
+    '@format': 'html'
+  appendExceedingArguments: true

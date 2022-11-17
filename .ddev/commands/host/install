@@ -1,0 +1,11 @@
+#!/bin/bash
+
+## Description: Installs php & node dependencies
+## Usage: install
+## Example: "ddev install"
+
+mkdir -p Data/Logs
+ddev composer install
+ddev pnpm install
+ddev composer flush
+ddev build

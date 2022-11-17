@@ -1,0 +1,7 @@
+#!/bin/bash
+
+## Description: Shuts the project down
+## Usage: down
+## Example: "ddev down"
+
+ddev stop --unlist

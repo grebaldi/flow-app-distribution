@@ -1,0 +1,7 @@
+#!/bin/bash
+
+## Description: Run development frontend build when files change
+## Usage: watch
+## Example: "ddev watch"
+
+pnpm watch

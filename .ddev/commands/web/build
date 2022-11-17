@@ -1,0 +1,7 @@
+#!/bin/bash
+
+## Description: Run a production frontend build
+## Usage: build
+## Example: "ddev build"
+
+pnpm build

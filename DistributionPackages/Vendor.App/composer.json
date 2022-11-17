@@ -1,0 +1,27 @@
+{
+    "name": "vendor/app",
+    "type": "neos-package",
+    "version": "1.0.0",
+    "license": [
+        "MIT"
+    ],
+    "description": "",
+    "require": {
+        "neos/flow": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vendor\\App\\": "Classes"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Vendor\\App\\Tests\\": "Tests"
+        }
+    },
+    "extra": {
+        "neos/flow": {
+            "manage-resources": true
+        }
+    }
+}
