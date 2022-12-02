@@ -1,4 +1,6 @@
-# Flow App Distribution
+# <s>Flow App Distribution</s>
+
+**ARCHIVED:** This repository has been moved here: https://codeberg.org/wbehncke/flow-app-distribution
 
 > Flow distribution for application development
 
